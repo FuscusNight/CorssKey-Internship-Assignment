@@ -10,6 +10,7 @@ public class MortgageCalculator {
         String filePath = "prospects.txt";
         readAndCalculatePayments(filePath);
 
+        // Only added this so the JAR/EXE files don't close asap
         System.out.println("Press Enter to exit.");
         try {
             System.in.read();
